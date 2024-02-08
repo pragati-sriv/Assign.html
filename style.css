@@ -67,3 +67,19 @@
     height: 550px;
   }
   
+@media (max-width: 768px) {
+  .cards-container {
+    width: 100%; 
+  }
+
+  .content-wrapper, .cards-row {
+    flex-direction: column;
+  }
+
+  .Card-image {
+    width: 50%;
+  }
+}
+
+
+
